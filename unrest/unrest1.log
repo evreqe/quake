@@ -1,0 +1,59 @@
+---- qbsp / TyrUtils ericw-v0.15.3 ----
+Input file: C:\quake\id1\maps\unrest1.map
+Output file: C:\quake\id1\maps\unrest1.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+         1034 faces
+          175 brushes
+           60 entities
+           15 unique texnames
+         2068 texinfo
+
+Opened WAD: C:\quake\id1\quake.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          145 brushes
+           25 detail
+---- CSGFaces ----
+         1008 brushfaces
+          943 csgfaces
+          854 mergedfaces
+---- SolidBSP ----
+         1392 split nodes
+          485 solid leafs
+          907 empty leafs
+            1 water leafs
+         2867 leaffaces
+         2739 nodefaces
+---- Portalize ----
+          908 vis leafs
+          908 vis clusters
+         2349 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-1759 -30 24), no filling performed.
+Leak file written to C:\quake\id1\maps\unrest1.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (-1291 -2582 24), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (-1291 -2582 24), no filling performed.
+---- WriteBSPFile ----
+          571 planes            11420
+         3419 vertexes          41028
+         1418 nodes             34032
+           66 texinfo            2640
+         2765 faces             55300
+         2395 clipnodes         19160
+          935 leafs             26180
+         2893 marksurfaces       5786
+        10982 surfedges         43928
+         7009 edges             28036
+           19 textures          98080
+              lightdata             0
+              visdata               0
+              entdata            3895
+
+0.564 seconds elapsed
+Peak memory usage: 27805061 (26.5M)
